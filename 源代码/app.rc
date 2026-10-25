@@ -1,0 +1,35 @@
+// NCM 解密工具 资源文件
+1 ICON "app.ico"
+1 24 "app.manifest"
+// 接收文件夹图标 (运行时释放到 %APPDATA%\classChat\folder.ico)
+101 RCDATA "folder.ico"
+
+// 版本信息 (强制更新靠它比较版本, 必须与 main.cpp 的 APP_VER_MS/LS 同步)
+1 VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "classChat"
+            VALUE "FileDescription", "classChat 1.1.X"
+            VALUE "FileVersion", "1.1.0.0"
+            VALUE "InternalName", "classChat"
+            VALUE "OriginalFilename", "classChat.exe"
+            VALUE "ProductName", "classChat"
+            VALUE "ProductVersion", "1.1.X"
+            VALUE "LegalCopyright", "classChat"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

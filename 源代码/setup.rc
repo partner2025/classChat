@@ -1,0 +1,7 @@
+1 ICON "app.ico"
+100 RCDATA "classChat.exe"
+101 RCDATA "qr.png"
+102 RCDATA "panda.png"
+103 RCDATA "panda.ico"
+104 RCDATA "upd.cfg"
+1 24 "setup.manifest"
